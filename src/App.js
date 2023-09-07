@@ -1,6 +1,6 @@
 import ButtonComponent from "./Buttons";
 import 'material-symbols';
-import "./app.css"
+import "./app.css";
 
 const App = () => {
 
