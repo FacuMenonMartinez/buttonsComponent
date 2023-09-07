@@ -1,0 +1,153 @@
+.buttonDiv {
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonTitle {
+    text-align: center;
+}
+
+
+/* Button's types */
+.defaultButton {
+    width: 8vw;
+    height: 5vh;
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px grey;
+    font-weight: bold;
+    color: black;
+}
+
+.defaultButton:hover {
+    cursor: pointer;
+}
+
+.defaultButton:active {
+    color: white;
+    background-color: rgb(160, 160, 160);
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.disabled {
+    width: 8vw;
+    height: 5vh;
+    background-color: rgb(163, 163, 163);
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 10px;
+    box-shadow: none;
+    font-weight: bolder;
+    color: rgb(92, 92, 92);
+}
+
+.hovered:hover {
+    background-color: rgb(165, 132, 42);
+    border: 1px solid white;
+    color: white;
+}
+
+.hovered:active {
+    background-color: rgb(121, 95, 24);
+    border: 1px solid rgb(231, 231, 231);
+    color: rgb(231, 231, 231);
+}
+
+.focus:focus {
+    color: white;
+    background-color: rgb(160, 160, 160);
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.no-shadow:hover {
+    box-shadow: none;
+}
+
+.no-shadow:active {
+    box-shadow: none;
+}
+
+.big {
+    width: 12vw;
+    height: 8vh;
+}
+
+.small {
+    width: 6vw;
+    height: 4vh;
+}
+
+.red {
+    background-color: rgb(170, 35, 35);
+}
+
+.red:active {
+    background-color: rgb(112, 22, 22);
+}
+
+.green {
+    background-color: rgb(35, 99, 33);
+}
+
+.green:active {
+    background-color: rgb(27, 75, 26);
+}
+
+.blue {
+    background-color: rgb(43, 55, 221);
+}
+
+.blue:active {
+    background-color: rgb(32, 41, 158);
+}
+
+.pink {
+    background-color: rgb(255, 135, 215);
+}
+
+.pink:active {
+    background-color: rgb(255, 100, 203);
+    border: 1px solid white;
+}
+
+.white {
+    background-color: aliceblue;
+}
+
+.white:active {
+    background-color: rgb(225, 241, 255);
+    color: black;
+    border: 1px solid white;
+}
+
+.dark {
+    background-color: rgb(39, 36, 36);
+    color: rgb(197, 197, 197);
+    border: 2px solid black;
+}
+
+.dark:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* Icons */
+.material-symbols-outlined {
+    font-size: 18px !important;
+}
+
+.icon-left,.icon-right {
+    display: flex;
+    padding: 1vh;
+    justify-content: space-between;
+    align-items: center;
+}
